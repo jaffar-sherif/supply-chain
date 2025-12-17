@@ -24,7 +24,7 @@ Maps manufacturers to items with part numbers and GTINs, with manufacturer block
 - ERPNext v15
 - Frappe Framework
 - MySQL/MariaDB
-- Python 3.8+
+- Python 3.10+
 
 ### Setup Steps
 
