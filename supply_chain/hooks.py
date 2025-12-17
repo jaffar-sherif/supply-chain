@@ -1,7 +1,7 @@
 app_name = "supply_chain"
 app_title = "Supply Chain"
-app_publisher = "with validations, reports, and APIs.Jaffar"
-app_description = "Custom ERPNext app for agency management and manufacturer–item mapping"
+app_publisher = "Jaffar"
+app_description = "Custom ERPNext app for agency management and manufacturer–item mapping with validations, reports, and APIs."
 app_email = "jaffarsherif.u@gmail.com"
 app_license = "mit"
 
