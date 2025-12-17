@@ -52,8 +52,6 @@ bench --site supply_chain.local install-app supply_chain
 bench start
 ```
 
-**Access:** http://supply_chain.local:8000
-
 ---
 
 ## Module 1: Agency Management
