@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "AGN-.MM.-.#####",
+ "creation": "2025-12-15 22:03:59.198609",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "agency_name",
+  "territory",
+  "column_break_gnfx",
+  "supplier",
+  "is_active",
+  "primary_contact_section",
+  "phone",
+  "column_break_vkhm",
+  "email_id",
+  "agency_items_section",
+  "items"
+ ],
+ "fields": [
+  {
+   "fieldname": "agency_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Agency Name",
+   "read_only_depends_on": "eval:doc.supplier",
+   "reqd": 1
+  },
+  {
+   "fieldname": "territory",
+   "fieldtype": "Link",
+   "label": "Territory",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "column_break_gnfx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "primary_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Primary Contact"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vkhm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email Id",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agency_items_section",
+   "fieldtype": "Section Break",
+   "label": "Agency Items"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "options": "Agency Item"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-16 21:21:28.607800",
+ "modified_by": "Administrator",
+ "module": "Supply Chain",
+ "name": "Agency",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "agency_name,is_active,email_id",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "country": "India",
+  "custom_gln": "8901234000001",
+  "custom_is_blocked": 0,
+  "docstatus": 0,
+  "doctype": "Manufacturer",
+  "full_name": "Pfizer Pharmaceuticals",
+  "logo": null,
+  "modified": "2025-12-17 08:33:25.046156",
+  "name": "Pfizer",
+  "notes": null,
+  "short_name": "Pfizer",
+  "website": null
+ },
+ {
+  "country": "India",
+  "custom_gln": "8901234000002",
+  "custom_is_blocked": 0,
+  "docstatus": 0,
+  "doctype": "Manufacturer",
+  "full_name": "Sun Pharmaceutical Industries Ltd",
+  "logo": null,
+  "modified": "2025-12-17 08:34:22.630811",
+  "name": "Sun Pharma",
+  "notes": null,
+  "short_name": "Sun Pharma",
+  "website": null
+ },
+ {
+  "country": "India",
+  "custom_gln": "8901234000003",
+  "custom_is_blocked": 1,
+  "docstatus": 0,
+  "doctype": "Manufacturer",
+  "full_name": "Cipla",
+  "logo": null,
+  "modified": "2025-12-17 08:35:19.173040",
+  "name": "Cipla",
+  "notes": null,
+  "short_name": "Cipla",
+  "website": null
+ }
+]

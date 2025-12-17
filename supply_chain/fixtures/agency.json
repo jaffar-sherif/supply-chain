@@ -1,0 +1,49 @@
+[
+ {
+  "agency_name": "MediSupply Distributors",
+  "docstatus": 0,
+  "doctype": "Agency",
+  "email_id": "medisupply@gmail.com",
+  "is_active": 1,
+  "items": [
+   {
+    "default_uom": "Nos",
+    "item_code": "PARA-500",
+    "item_name": "Paracetamol 500mg Tablet",
+    "lead_time_days": 5,
+    "min_order_qty": 1000,
+    "parent": "AGN-12-00001",
+    "parentfield": "items",
+    "parenttype": "Agency"
+   },
+   {
+    "default_uom": "Nos",
+    "item_code": "AMOX-250",
+    "item_name": "Amoxicillin 250mg Capsule",
+    "lead_time_days": 7,
+    "min_order_qty": 500,
+    "parent": "AGN-12-00001",
+    "parentfield": "items",
+    "parenttype": "Agency"
+   }
+  ],
+  "modified": "2025-12-17 08:49:07.870372",
+  "name": "AGN-12-00001",
+  "phone": "+91-9898989098",
+  "supplier": null,
+  "territory": "India"
+ },
+ {
+  "agency_name": "HealthBridge Pharma Agency",
+  "docstatus": 0,
+  "doctype": "Agency",
+  "email_id": "healthbridge@gmail.com",
+  "is_active": 0,
+  "items": [],
+  "modified": "2025-12-17 08:50:03.810722",
+  "name": "AGN-12-00002",
+  "phone": "+91-8989890987",
+  "supplier": null,
+  "territory": "India"
+ }
+]

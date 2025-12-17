@@ -1,0 +1,41 @@
+[
+ {
+  "custom_gtin": "8901234567890",
+  "description": "Paracetamol 500mg Tablet",
+  "docstatus": 0,
+  "doctype": "Item Manufacturer",
+  "is_default": 0,
+  "item_code": "PARA-500",
+  "item_name": "Paracetamol 500mg Tablet",
+  "manufacturer": "Pfizer",
+  "manufacturer_part_no": "PARA-500",
+  "modified": "2025-12-17 08:42:28.263124",
+  "name": "f0q409jcog"
+ },
+ {
+  "custom_gtin": "8901234567891",
+  "description": "Paracetamol 500mg Tablet",
+  "docstatus": 0,
+  "doctype": "Item Manufacturer",
+  "is_default": 0,
+  "item_code": "PARA-500",
+  "item_name": "Paracetamol 500mg Tablet",
+  "manufacturer": "Sun Pharma",
+  "manufacturer_part_no": "SUN-PARA-500",
+  "modified": "2025-12-17 08:43:25.732649",
+  "name": "fipq0atklq"
+ },
+ {
+  "custom_gtin": "8901234567892",
+  "description": "Amoxicillin 250mg Capsule",
+  "docstatus": 0,
+  "doctype": "Item Manufacturer",
+  "is_default": 0,
+  "item_code": "AMOX-250",
+  "item_name": "Amoxicillin 250mg Capsule",
+  "manufacturer": "Sun Pharma",
+  "manufacturer_part_no": "AMOX-250",
+  "modified": "2025-12-17 08:44:11.753404",
+  "name": "g15u4utdml"
+ }
+]
