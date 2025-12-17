@@ -106,7 +106,7 @@ bench start
 #### ✅ REST API: Get Manufacturers by Item
 **Endpoint:**
 ```
-POST /api/method/supply_chain.supply_chain.api.get_manufacturers_by_item
+GET /api/method/supply_chain.supply_chain.api.get_manufacturers_by_item
 ```
 
 **Request:**
