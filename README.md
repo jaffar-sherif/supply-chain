@@ -76,13 +76,12 @@ bench start
 
 #### ✅ Inactive Agencies in Red on List View
 - Active agencies: Normal background + Green [Active] badge
-- Inactive agencies: **RED background (#f46a6a96)** + Red [Inactive] badge
-- Badges are clickable for filtering
+- Inactive agencies: Normal background  + Red [Inactive] badge + Highlight Agency name in red
 
 #### ✅ Agency Lead Times Report
 - View all agencies with their supplied items
 - Columns: Agency ID, Agency Name, Item Code, Item Name, Min Order Qty, Lead Time Days
-- Filters: Agency Name, Territory, Item Code
+- Filters: Agency, Item Code, Lead Time (Days) <=
 
 ---
 
@@ -143,7 +142,7 @@ POST /api/method/supply_chain.supply_chain.api.get_manufacturers_by_item
 
 #### ✅ Items by Manufacturer Report
 - View all items mapped to selected manufacturer
-- Columns: Manufacturer Name, GLN, Item Code, Item Name, Manufacturer Part No, GTIN
+- Columns: Manufacturer Name, Item Name, Manufacturer Part No, GTIN
 - Filters: Manufacturer, Item Code
 
 **Last Updated:** December 2025  
